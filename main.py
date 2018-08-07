@@ -5,7 +5,7 @@ from secret import SLACK_TOKEN
 
 class HelloPlugin(Plugin):
     def process_message(self, data):
-        results = [' 🐕  간다 ', '왜 ❓', '🐶 🗯 🗯 🗯' , '나 고양인데? 🐱' ]
+        results = [' 🐕 간다 ', '왜 ❓', '🐶 🗯 🗯 🗯' , '나 고양인데? 🐱' ]
 
         if "댕댕" in data["text"]:
             num = random.randrange(0,3)
