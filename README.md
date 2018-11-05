@@ -1,4 +1,4 @@
-# Quotesbot
+# dangdangbot
 Slack bot
 
 # 실행하기
